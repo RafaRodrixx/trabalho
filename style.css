@@ -1,0 +1,266 @@
+body{
+    background-color: rgba(174, 253, 253, 0.347);
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+#barger{
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.126);
+    border-radius: 20px
+}
+header p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(26, 67, 129);
+    margin: auto;
+    padding: 0px;
+    height: 50px;
+}
+
+header img{
+    width: 50px;
+}
+nav p{
+    color: rgb(26, 67, 129);
+}
+
+nav a{
+    height: 20%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(192, 192, 192, 0.977);
+    color: rgb(26, 67, 129);
+    border-radius: 8px;
+    padding: 10px 13.9px;
+    cursor: pointer;
+    margin: 4px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgba(192, 192, 192, 0.977);
+    border-radius: 20px;
+    margin: 1px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(26, 67, 129);
+}
+
+#Carnes .carne{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+figure{
+    width: 300px;
+    margin: 1%;
+    padding: 0;
+    border-radius: 20px;
+    background-color: rgba(5, 62, 112, 0.324);
+}
+
+figure>img{
+    margin: 0 auto;
+    object-fit: scale-down;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    max-width: 207px;
+}
+
+figure>p{
+    text-align: center;
+}
+
+figure>ul{
+    text-align: center;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+figure>button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: rgba(192, 192, 192, 0.977);
+    border-radius: 0 0 6px 6px;
+    width: 100%;
+    height: 46px;
+    color: rgb(26, 67, 129);
+    border: rgb(26, 67, 129);
+}
+
+#Margarinas .Margarina{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Grãos .Grãoss{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Temperos .Tempeross{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Doces .Docess{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Bebidas .Bebidass{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Higiene .Higiene1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Verduras .Verduras1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Frutas .Frutas1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+#Peixes .Peixes1{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 100%;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.info .centro{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .centro .info1,
+.info .centro .info2,
+.info .centro .info3{
+    width: 350px;
+    height: 360px;
+    background-color: rgba(5, 62, 112, 0.324);
+    color: #0000c4;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.info .centro .info1 img{
+    width: 180px;
+    height: 120px;
+    margin: 20px;
+}
+
+
+.info .centro .info1 p{
+    line-height: 11px;
+    font-size: 20px;       
+}
+
+.info .centro .info2 img{
+    width: 300px;
+    height: 90px;
+    margin: 20px 0 0 0;
+}
+
+.info .centro .info2 div{
+    width: 100%-40px;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .centro .info2 div img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+.info .centro .info2 p{
+    line-height: 50px;
+    font-size: 20px;       
+}
+
+.info .centro .info3 img{
+    width: 180px;
+    height: 120px;
+    margin: 20px; 
+}
+
+.info .centro .info3 iframe{
+    width: 300px;
+    height: 180px;
+    border-radius: 25px 15px 25px 15px;
+}
+
+@media (max-width: 800px){
+    .info {
+        justify-content: center;
+    }
+
+    .info .centro{
+        display: block;
+    }
+
+    #barger{
+        background-color: #0000c4;
+        color: aliceblue;
+        display: block;
+        text-align: center;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    #barger:hover{
+        background-color: beige;
+        color: black;
+    }
+
+    nav{
+        display: none;
+    }
+}
